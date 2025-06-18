@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+}
+
+.logo{
+    height:40px;
+    width: 100px;
+    object-fit: cover;
+}
+.container{
+     display: flex;
+     justify-content: space-between;
+     width: 1200px;
+     margin: auto;
+     padding: 20px 0px;
+}
+.navigation{
+    display: flex;
+    gap: 5px;
+}
+.navigation li{
+    font-size: 1rem;
+    list-style-type: none;
+}
+.navigation li a{
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #0057FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+.login{
+    color: red;
+    text-decoration: none;
+}
+/* PAGE ACCUEIL SECTION BANNER */
+.banner{
+    background-image: url('./robot.png');
+background-color: #0057FF;  
+
+
+    height: 80vh;
+    background-size: cover;
+    width: 100%;
+}
